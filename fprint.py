@@ -12,5 +12,3 @@ _a=8
 _b=4
 _c=8/4
 print(_c)
-
-#-- end programm ----------
