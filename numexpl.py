@@ -44,4 +44,4 @@ print('100s is ' , _N100)
 print('10s is ' , _N10)
 print('1s is ',_N1)
 
-#--- end off code -----------------------
+#--- end programm -----------------------
