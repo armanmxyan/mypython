@@ -24,5 +24,5 @@ print('Radius =',_R)
 _L=2*_Pi*_R                    # L = 2*Pi*R       
 print('Circle lenght =',_L)
 
-#-- End off code -------------------------------------
+#-- End proramm  -------------------------------------
 
