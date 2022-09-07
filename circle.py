@@ -1,27 +1,32 @@
 #!/bin/python3
 
-#----------------------------
+#******************************
 #
 # Autor Arman Mkhitaryan 
 # QUIZ | Python Day 1:
 #
-#---------------------------
+#*******************************
 
-#--- variables -------------------
+#****  Data  **************************** 
 
-_S=78.5
-_Pi=3.14
-_L=0
-_R=0
+S=78.5      # Circle squere
+Pi=3.14     
 
-#---- calculate Radius -----------------------------------
 
-_R=(_S/_Pi)**0.5               # R = ( S/Pi )^0.5
-print('Radius =',_R)
+#**** calculate Radius   *******************
 
-#-----calculate Circle Lenght ---------------------------------
+R=(S/Pi)**0.5               # R = ( S/Pi )exp(1/2)
 
-_L=2*_Pi*_R                    # L = 2*Pi*R       
-print('Circle lenght =',_L)
 
-#-- End programm -------------------------------------
+#****  calculate Circle Lenght *************
+
+L=2*Pi*R  
+
+
+#****  print  ******************************
+
+print('Radius =',R)                      
+print('Circle lenght =',L)
+
+#**** End programm *************************
+

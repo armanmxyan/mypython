@@ -1,47 +1,40 @@
 #!/bin/python3
-#----------------------------
+
+#*****************************
 #
 # Autor Arman Mkhitaryan 
 # QUIZ | Python Day 1:
 #
-#---------------------------
+#****************************
 
-#-- variables -----------------
-_N = 1370
-_N1000 = 0
-_N100 = 0
-_N10 = 0
-_N1 = 0
-Temp = 0
+#**** Data *************
 
-#---- calc 1000's ---------------
+N = 1370
 
-_N1000 = _N // 1000 
-#print(_N1000)
+#**** calc 1000's ***********
 
-#---- calc 100's ---------------
+N1000 = N // 1000 
+Temp = N % 1000
 
-Temp =_N - 1000*_N1000
-_N100  = Temp // 100
-#print(_N100)
+#**** calc 100's ************
 
-#---- calc 10's -----------------
+N100  = Temp // 100
+Temp = N % 100
 
-Temp = Temp - 100*_N100
-_N10   = Temp // 10
-#print(_N10)
+#**** calc 10's *************
 
-#----- calc 1's ------------------
+N10   = Temp // 10
 
-_N1 = Temp - 10*_N10 
-#print(_N1)
+#*** calc 1's **************
 
-#-- printing -----------------
+N1 = Temp % 10 
 
-print('Origin Number is ' , _N)
-print('1000s is ', _N1000)
-print('100s is ' , _N100)
-print('10s is ' , _N10)
-print('1s is ',_N1)
+#*** Print ****************
 
-#--- end programm -----------------------
+print('Origin Number is ' , N)
+print('1000s is ',  N1000)
+print('100s is  ',  N100)
+print('10s is   ',  N10)
+print('1s is    ',  N1)
+
+#*** end programm ***********
