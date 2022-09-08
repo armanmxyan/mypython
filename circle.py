@@ -2,7 +2,7 @@
 
 #----------------------------
 #
-# Autor Arman Mkhitaryan 
+# Autor Arman Mkhitaryan
 # QUIZ | Python Day 1:
 #
 #---------------------------
@@ -21,8 +21,9 @@ print('Radius =',_R)
 
 #-----calculate Circle Lenght ---------------------------------
 
-_L=2*_Pi*_R                    # L = 2*Pi*R       
+_L=2*_Pi*_R                    # L = 2*Pi*R
 print('Circle lenght =',_L)
 
 #-- End programm -------------------------------------
 ifjkdslfjsdkfjj
+1

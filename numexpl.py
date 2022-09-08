@@ -1,7 +1,7 @@
 #!/bin/python3
 #----------------------------
 #
-# Autor Arman Mkhitaryan 
+# Autor Arman Mkhitaryan
 # QUIZ | Python Day 1:
 #
 #---------------------------
@@ -16,7 +16,7 @@ Temp = 0
 
 #---- calc 1000's ---------------
 
-_N1000 = _N // 1000 
+_N1000 = _N // 1000
 #print(_N1000)
 
 #---- calc 100's ---------------
@@ -33,7 +33,7 @@ _N10   = Temp // 10
 
 #----- calc 1's ------------------
 
-_N1 = Temp - 10*_N10 
+_N1 = Temp - 10*_N10
 #print(_N1)
 
 #-- printing -----------------
@@ -45,3 +45,4 @@ print('10s is ' , _N10)
 print('1s is ',_N1)
 
 #--- end programm -----------------------
+po
