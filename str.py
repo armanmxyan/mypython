@@ -19,6 +19,8 @@ print(f"Name: {name}  Age: {age}")
 print(name+age)
 '''
 
+
+'''
 N=1370
 
 
@@ -33,4 +35,54 @@ print(N1000)
 print(N100)
 print(N10)
 print(N1)
+'''
+
+
+message = "hello world!"
+hello = "hello"
+print(hello  in message)  # False
+ 
+gold = "gold"
+print(gold not in message)  # True
+
+
+
+number = 1
+ 
+while number < 5:
+    print(f"number = {number}")
+    number += 1
+print("Работа программы завершена")
+
+
+i = 1
+j = 1
+while i < 10:
+    while j < 10:
+        print(i * j, end="\t")
+        j += 1
+    print("\n")
+    j = 1
+    i += 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
